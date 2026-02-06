@@ -2,6 +2,7 @@
 # PROJETO: Gerador de Placas Customizadas (Especial 10K)
 # AUTOR: Franco (Canal: Código Roxo)
 # DATA: Fevereiro de 2026
+# Youtube: https://www.youtube.com/@C%C3%B3digoRoxo
 #
 # DESCRIÇÃO:
 # Este script automatiza a coleta de métricas públicas do YouTube via Requests
@@ -321,4 +322,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
