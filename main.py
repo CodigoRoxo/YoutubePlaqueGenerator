@@ -1,3 +1,20 @@
+# ==============================================================================
+# PROJETO: Gerador de Placas Customizadas (Especial 10K)
+# AUTOR: Franco (Canal: Código Roxo)
+# DATA: Fevereiro de 2026
+#
+# DESCRIÇÃO:
+# Este script automatiza a coleta de métricas públicas do YouTube via Requests
+# e processa imagens (PIL) para gerar uma placa comemorativa personalizada.
+#
+# AVISO LEGAL (DISCLAIMER):
+# Este software foi desenvolvido exclusivamente para fins DIDÁTICOS e de 
+# ENSINO de programação Python e Automação. 
+# 1. Não possui QUALQUER VÍNCULO oficial com o Google LLC ou YouTube.
+# 2. A placa gerada não representa uma premiação oficial da plataforma.
+# 3. O uso deste código é de total responsabilidade do usuário.
+# ==============================================================================
+
 import re
 import requests
 from PIL import Image, ImageDraw, ImageFont
@@ -304,3 +321,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
